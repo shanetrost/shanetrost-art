@@ -6,6 +6,10 @@
 
 ---
 
+## Not Squarespace (Shane, 2026-09-18)
+
+Static HTML in `html/`, served by nginx on Railway. The markup is an old Squarespace **export**, so it carries Fluid Engine classes and scroll-reveal scripts, but nothing is edited in Squarespace (only shanetrost.com is on Squarespace). `/privacy` is `html/privacy.html` (via `try_files $uri.html`) and is linked from every footer under ©2025 Shane Trost. Layout gotcha: footer text fades in only on a real wheel scroll, and locally served copies never reveal, so check layout on the live page (swapping markup in via DevTools works).
+
 ## CLAUDE_OS End-of-Session Handoff
 
 **Trigger:** the session ends, or Shane says "wrap up" / "log this" / "update memory".
