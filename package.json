@@ -1,0 +1,8 @@
+{
+  "name": "shanetrost-art",
+  "private": true,
+  "description": "Only for Railway infrastructure-as-code (.railway/railway.ts). The site itself is static html/ served by nginx; see Dockerfile.",
+  "devDependencies": {
+    "railway": "3.12.0"
+  }
+}
