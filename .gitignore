@@ -6,3 +6,4 @@ wget.log
 /fonts.googleapis.com/
 /use.typekit.net/
 .DS_Store
+node_modules/
